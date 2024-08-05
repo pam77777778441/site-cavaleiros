@@ -1,0 +1,53 @@
+
+    body {
+        background: azure;
+        color: rgb(58, 49, 49, 0.781) ;}
+    
+        h1 , h2 , h3, h4, h5 {
+            color: brown;
+            
+        }
+        
+    
+        h6 { 
+            color: palevioletred;
+        
+}
+
+
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: #48b85b;
+    width: 30%;
+    margin-bottom: 1px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #333333;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  tr:hover {
+    background-color: #a51818;
+  }
+
+  ol {
+    list-style: none;
+}
+ol li::before {
+    content: "💕";
+}
+
+iframe {
+    width: 30%; height: 30%;
+}

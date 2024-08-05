@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: azure;
+    color: grey ;
+    text-align: center;
+    pre{
+        color: red;
+    }
+
+    h1 , h2 , h3, h4, h5 {
+        color: brown;
+        
+    }
+    
+
+    h6 { 
+        color: palevioletred;
+    }
+
+    mark {
+     color:rgb(255, 0, 0);
+    }
+    
+   
+
+a:link {
+ color: darkgoldenrod; 
+ text-decoration: none;
+}
+
+ a.none {
+    text-decoration: none;
+  }
+
